@@ -1,0 +1,43 @@
+body{
+    background-color: var(--fundo);
+    font-family: 'Outfit', sans-serif
+
+    }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pai{
+    max-width: 319px;
+    background-color: var(--borda);
+    border-radius: 13px;
+    padding: 16px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.titulo{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    padding-top: 18px;
+    text-align: justify;
+    text-align: center;
+}
+
+.paragrafo{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    opacity: 0.5;
+    padding: 19px 15px ;
+    text-align: justify;
+    text-align: center;
+}
+
